@@ -1,0 +1,13 @@
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\obj\Debug\netcoreapp3.1\CarInventoryAPP.csprojAssemblyReference.cache
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\obj\Debug\netcoreapp3.1\CarInventoryAPP.csproj.CoreCompileInputs.cache
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\obj\Debug\netcoreapp3.1\CarInventoryAPP.AssemblyInfoInputs.cache
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\obj\Debug\netcoreapp3.1\CarInventoryAPP.AssemblyInfo.cs
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\obj\Debug\netcoreapp3.1\CarInventoryAPP.dll
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\obj\Debug\netcoreapp3.1\CarInventoryAPP.pdb
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\bin\Debug\netcoreapp3.1\CarInventoryAPP.exe
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\bin\Debug\netcoreapp3.1\CarInventoryAPP.deps.json
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\bin\Debug\netcoreapp3.1\CarInventoryAPP.runtimeconfig.json
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\bin\Debug\netcoreapp3.1\CarInventoryAPP.runtimeconfig.dev.json
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\bin\Debug\netcoreapp3.1\CarInventoryAPP.dll
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\bin\Debug\netcoreapp3.1\CarInventoryAPP.pdb
+C:\codebits-academy\html5\C#\labtask10\carinventoryapp\obj\Debug\netcoreapp3.1\CarInventoryAPP.genruntimeconfig.cache
