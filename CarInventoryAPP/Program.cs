@@ -36,7 +36,7 @@ namespace CarInventoryAPP
                         break;
                     
                 }
-                if(command == "show")
+                if(command != "add")
                 {   
                     Console.WriteLine($"Sorry, but {command} is not a valid command. Please try again.");
                 }
