@@ -31,7 +31,7 @@ namespace CarInventoryAPP
             totalinventory += price;
 
             
-           result = $"==================================Make: {Convert.ToString(make)}\nModel: {Convert.ToString(model)}\nYear: {Convert.ToString(year)}\nPrice: {Convert.ToString(price)}\nTotal Inventory: {Convert.ToString(totalinventory)}\n========================================\n";
+           result = $"==================================\nMake: {make}\nModel: {model}\nYear: {year}\nPrice: {price:C}\n";
             list.Add(result);
         }
 
@@ -40,12 +40,13 @@ namespace CarInventoryAPP
         {
             foreach (var item in list)
             {
-                if(!list.Any())
+                if(list == null)
                 {
                     Console.Write("There are currently no cars in the catalog.");
                 }else
                 Console.Write(item);
             }
+            Console.Write($"Total Inventory: {totalinventory:C}");
         }
         
         

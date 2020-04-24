@@ -22,6 +22,7 @@ namespace CarInventoryAPP
                 if(command == "add")
                 {
                     tokunbor.Catalog();
+                    
                 }
                 if(command == "list")
                 {
@@ -35,8 +36,8 @@ namespace CarInventoryAPP
                         break;
                     
                 }
-                else
-                {
+                if(command == "show")
+                {   
                     Console.WriteLine($"Sorry, but {command} is not a valid command. Please try again.");
                 }
             }
