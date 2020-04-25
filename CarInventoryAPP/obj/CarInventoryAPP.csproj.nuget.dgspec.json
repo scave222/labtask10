@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\codebits-academy\\html5\\C#\\labtask10\\CarInventoryAPP\\CarInventoryAPP.csproj": {}
+    "C:\\codebits-academy\\html5\\C#\\labtask10\\carinventoryapp\\CarInventoryAPP.csproj": {}
   },
   "projects": {
-    "C:\\codebits-academy\\html5\\C#\\labtask10\\CarInventoryAPP\\CarInventoryAPP.csproj": {
+    "C:\\codebits-academy\\html5\\C#\\labtask10\\carinventoryapp\\CarInventoryAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\codebits-academy\\html5\\C#\\labtask10\\CarInventoryAPP\\CarInventoryAPP.csproj",
+        "projectUniqueName": "C:\\codebits-academy\\html5\\C#\\labtask10\\carinventoryapp\\CarInventoryAPP.csproj",
         "projectName": "CarInventoryAPP",
-        "projectPath": "C:\\codebits-academy\\html5\\C#\\labtask10\\CarInventoryAPP\\CarInventoryAPP.csproj",
+        "projectPath": "C:\\codebits-academy\\html5\\C#\\labtask10\\carinventoryapp\\CarInventoryAPP.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\codebits-academy\\html5\\C#\\labtask10\\CarInventoryAPP\\obj\\",
+        "outputPath": "C:\\codebits-academy\\html5\\C#\\labtask10\\carinventoryapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"

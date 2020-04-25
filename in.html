@@ -1,0 +1,106 @@
+using System;
+using System.Collections.Generic;
+
+namespace CarInventoryAPP
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Tokunbor tokunbor = new Tokunbor();
+
+            Console.WriteLine("Welcome to Caleb Okogbe's Cool “Tokunbo” Autos!");
+
+            while(true)
+            {
+                Console.Write("Enter command: ");
+                string command = Console.ReadLine();
+
+                if(command == "add")
+                {
+                    tokunbor.Catalog();
+                    
+                }
+                if(command == "list")
+                {
+                        tokunbor.Lists();
+                        break;
+                    
+                }
+                if(command == "quit")
+                {
+                    Console.Write("Good bye!");
+                        break;
+                    
+                }
+                if(command != "add")
+                {   
+                    Console.WriteLine($"Sorry, but {command} is not a valid command. Please try again.");
+                }
+            }
+
+            
+
+        }
+    }
+}
+================================================
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+namespace CarInventoryAPP
+{
+    public class Tokunbor
+    { 
+        public string make;
+        public string model;
+        public int year;
+        public decimal price;
+        public string result;
+        public decimal totalinventory;
+        
+        List<string> list = new List<string>() {};
+        
+
+        public void Catalog()
+        {
+            Console.Write("Enter car make: ");
+            make = Console.ReadLine();
+
+            Console.Write("Enter car model: ");
+            model = Console.ReadLine();
+
+            Console.Write("Enter car year: ");
+            year = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter car price: ");
+            price = Convert.ToDecimal(Console.ReadLine());
+
+            totalinventory += price;
+
+            
+           result = $"==================================\nMake: {make}\nModel: {model}\nYear: {year}\nPrice: {price:C}\n";
+            list.Add(result);
+        }
+
+
+        public void Lists()
+        {
+            foreach (var item in list)
+            {
+                if(list == null)
+                {
+                    Console.Write("There are currently no cars in the catalog.");
+                }else
+                Console.Write(item);
+            }
+            Console.Write($"Total Inventory: {totalinventory:C}");
+        }
+        
+        
+        
+    
+    }
+}
